@@ -91,4 +91,9 @@ Compute rolling 12‑month Green–Brown excess performance and relate it to mac
 
 Use these regimes to interpret when Green tilts add resilience and when Brown exposure offers diversification and inflation hedging.
 ​
+# Implementation Notes
+Tech stack: Python, pandas, numpy, yfinance, fredapi, plus standard plotting libraries inside Jupyter notebooks.
+​
 
+The code is written to be robust to common data quirks (e.g. missing Adj Close, different column index structures, FRED publication gaps) and to produce reusable CSVs for further modelling.
+​
